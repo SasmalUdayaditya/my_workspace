@@ -2,7 +2,7 @@ class FiboNum{
 	public static void main(String s[]){
 	
 	}
-	Static int fibo(int n){
+	Static int fibo(int x){
 	
 	}
 }	
