@@ -6,13 +6,14 @@ public class Swap_without_Third {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		
-		System.out.println("Enter the 2 value ");
+		//System.out.println("Enter the 2 value ");
 		int a=sc.nextInt();
 		int b=sc.nextInt();
+		int c;
 		System.out.println("Value before swaping a="+a+" b="+b);
-		a=a+b;
-		b=a-b;
-		a=a-b;
+		c=a;
+		a=b;
+		b=c;
 		System.out.println("Value After swaping "+a+" b="+b);
 	}
 
